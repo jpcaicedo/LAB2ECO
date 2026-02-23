@@ -1,0 +1,22 @@
+{
+    "name": "lab2eco-posts-manager",
+    "version": "1.0.0",
+    "description": "A modern web application for managing posts with GET, POST, and DELETE operations",
+    "main": "index.js",
+    "scripts": {
+        "server": "json-server --watch db.json --port 3004 --static .",
+        "dev": "json-server --watch db.json --port 3004 --static ."
+    },
+    "keywords": [
+        "fetch",
+        "api",
+        "json-server",
+        "crud",
+        "posts"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "json-server": "^0.17.4"
+    }
+}
